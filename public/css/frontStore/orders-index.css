@@ -1,0 +1,42 @@
+.ddtop{
+    width:100%;
+    height:44px;
+    line-height:44px;
+    font-size:14px;
+    background-color:#fff;
+    color:#DC8F31;
+    border-bottom:1px #d3d3d3 solid;
+}
+.ddtop .l1{
+    width:5px;
+    height:20px;
+    margin-top:12px;
+    background-color:#d6b997;
+    float:left;
+}
+.ddtop .l2{
+    height:44px;
+    margin-left:10px;
+    color:#000;
+    float:left;
+}
+.ddtop .r1{
+    height:44px;
+    margin-right:15px;
+    float:right;
+}
+.ddtop .r1 a{
+    color:#DC8F31;
+}
+.ddtop .r2{
+    height:44px;
+    margin-right:5px;
+    float:right;
+    display:flex;
+}
+.ddtop .r2 img{
+    align-self: center;
+}
+ul.bgnone{
+    background:none;
+}

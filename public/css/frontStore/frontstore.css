@@ -1,0 +1,213 @@
+/*购物车浮标*/
+.cart_num{width:50px;height:50px;text-align:center;border-radius:100px;color:#000;background-color:#FFF;border:2px #000 solid;bottom:100px;right:20px;position:fixed;z-index:999;}
+.cart_num i{font-size:30px;line-height:50px;font-style:normal;}
+.cart_num img{width:30px;margin:10px auto;}
+.cart_num .num{width:20px;height:20px;background-color:#FF0000;color:#FFF;border-radius:100px;line-height:20px;font-size:14px;text-align:center;bottom:135px;right:20px;position:fixed;float:right;}
+
+body{
+    font-size:13px;
+}
+
+.swiper-container{
+    width:100%;
+}
+.swiper-container img{
+    display:block;
+}
+.list{
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    background-color:#fff;
+    padding-bottom:2.5rem;
+    margin-bottom:1rem;
+    min-height:3.6rem;
+}
+.list #menu{
+    width:100%;
+    height:15px;
+    overflow:hidden;
+    background-color:#fff;
+    border-bottom:0.02rem #939393 solid;
+    padding-top: 6px;
+}
+.list #menu div{
+    width:auto;
+    line-height:0.66rem;
+    margin-left:0.2rem;
+    padding-left:0.4rem;
+    padding-right:0.2rem;
+    float:left;
+}
+.list #menu .ppad{
+    height:0.66rem;
+    overflow:hidden;
+    box-sizing:border-box;
+    border-bottom:0.06rem #939393 solid;
+}
+/*这个是修改的*/
+.list #menu #all{
+    width:auto;
+    line-height:0.66rem;
+    margin-right:0rem;
+    position:relative;
+    float:left;
+    margin-left:0rem !important;
+}
+.list #menu #all img{
+    height:0.64rem;
+    border:0rem #939393 solid;
+    border-left:0.02rem #939393 solid;
+    float:left;
+    padding-left:0.2rem;
+    padding-right:0;
+    margin-right:0.2rem;
+}
+.list #menu div a{
+    color:#505050;
+}
+.list #menu .ppad a{
+    color:#E28F2B;
+}
+.list #cplist{
+    width:calc(100% - 0.1rem);
+    overflow:hidden;
+}
+.list #cplist li{
+    width:calc(50% - 0.1rem);
+    margin:0.1rem;
+    background-color:#FFF;
+    border:0.02rem #CCC solid;
+    box-sizing:border-box;
+    margin-right:0px;
+    margin-bottom:0px;
+    float:left;
+}
+.list #cplist .tit,.list #cplist .pce{
+    width:100%;
+    height:2.6rem;
+    line-height:2.3rem;
+    text-align:center;
+    overflow:hidden;
+    float:left;
+}
+.list #cplist img{
+    display:block;
+}
+.list #cplist .tit{
+    color:#505050;
+}
+.list #cplist .pce{
+    color:#DE943A;
+}
+/*这个是修改的*/
+.list #menuli{
+    width:2.1rem;
+    background-color:#FFFFFF;
+    text-align:center;
+    padding:0.01rem;
+    height:3.6rem;
+    overflow-y:scroll;
+    top:0.68rem;
+    right:0;
+    position:absolute;
+    z-index:999;
+}
+.list #menuli li{
+    padding:0.2rem;
+    border-bottom:1px #939393 solid;
+}
+#div1{
+    display:none;
+    position:fixed;
+    top:0;
+    font-size:0.22rem;
+    left:0;
+    z-index:999;
+    background-color:#FFFFFF;
+    padding:0.01rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    box-sizing:border-box;
+    width:100%;
+}
+/*这个是修改的*/
+.btnChange{
+    background:url(../../images/frontStore/bb.png) no-repeat;
+    background-size:0.8rem 0.8rem;
+    width:0.9rem;
+    height:0.9rem;
+    border: 0;
+    cursor: pointer;
+    border:none;
+    float:right;
+    overflow:hidden;
+}
+.input_bg{
+    width:45%;
+    height:0.4rem;
+    padding-left:0.1rem;
+    border-radius:0.06rem;
+    margin-right:1rem;
+    font-size:0.18rem;
+    border:0.02rem #ccc solid;
+    margin-top:0.13rem;
+    margin-left:0.2rem;
+}
+
+/** footer **/
+.foot{
+    width:100%;
+    height:3.5rem;
+    position:fixed;
+    border-top:0.02rem #d3d3d3 solid;
+    left:0;
+    bottom:0;
+    z-index:100;
+    background-color:#FFFFFF;
+    padding-top: 4px;
+}
+.foot ul{
+    margin-left:0.6rem;
+    width:100%;
+    height:3.0rem;
+    overflow:hidden;
+}
+.foot ul li{
+    padding-top:0.08rem;
+    width:24%;
+    font-size:0.875rem;
+    float:left;
+    text-align:center;
+}
+.foot ul li .pic{
+    width:100%;
+    height:1.4rem;
+    text-align:center;
+    padding-bottom:4px;
+}
+.foot ul li img{
+    height:1rem;
+    margin:auto;
+}
+.kefuxhq{
+    width:1.6rem;
+    height:0.76rem;
+    padding-top:0.02rem;
+    box-sizing:border-box;
+    font-size:0.22rem;
+    text-align:center;
+    bottom:0;
+    left:0;
+    position:fixed;
+    z-index:101;
+}
+.kefuxhq .pic{
+    width:100%;
+    height:0.9rem;
+    text-align:center;
+}
+.kefuxhq img{
+    height:0.9rem;
+    margin:auto;
+}
