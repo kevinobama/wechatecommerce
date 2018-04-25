@@ -1,3 +1,6 @@
+Author: kevin gates
+Profile:  https://www.linkedin.com/in/kevin-zhou-986b8986/
+
 Laravel 5 CRUD Generator
 appzcoder/crud-generator
 
